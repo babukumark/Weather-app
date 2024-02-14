@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Weather App</title>
+</head>
+<body>
+  <div class="container">
+    <input type="search" id="city" placeholder="Enter city name">
+    <button style="font-size:16px" onclick="getWeather()"><i class="fa fa-search"></i></button>
+    
+
+        <div id="weatherInfo">
+            <!-- <img src="Bg-1.webp" alt="" id="img" width="400px"  height="500px"> -->
+          <p  id="temperature">0&deg;C</p>
+          <h2 id="cityName">City Name</h2>
+          
+        </div>
+          <div class="footer">
+              <p style="font-size:20px" id="humidity">0%</p>
+            <p  style="font-size:20px" id="windSpeed">0km</p>
+          </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
